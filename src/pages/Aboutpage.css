@@ -1,0 +1,28 @@
+.About-todo {
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 30px;
+    width: 1000px;
+    /* margin: 100px; */
+}
+
+.para {
+    color: white;
+    margin-bottom: 10px;
+    width: 1000px;
+    margin: 30px auto;
+    font-size: 20px
+}
+
+.para2 {
+    margin: 30px auto;
+    width: 1000px;
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    color: red;
+}

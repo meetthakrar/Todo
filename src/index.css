@@ -1,0 +1,22 @@
+/* This targets the <body> tag specifically */
+body.light {
+  background-color: #ffffff; /* White background for light mode */
+  transition: background-color 0.3s ease;
+  /* color: #121212; */
+}
+
+body.dark {
+  background-color: #121212; /* Dark grey/black for dark mode */
+  transition: background-color 0.3s ease;
+  /* color: white; */
+}
+
+/* Ensure the text remains readable if you only want the bg to change */
+body {
+  color: #333; /* Default text color */
+  
+}
+
+body.dark {
+  /* color: #ffffff; Optional: change text to white so it's visible on dark bg */
+}
